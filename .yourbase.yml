@@ -32,6 +32,10 @@ build_targets:
       - cd ..
       - ./test.sh
 
+ci:
+   builds:
+      - name: all_commits
+        build_target: abtesting
 
 #matrix:
 #  include:
